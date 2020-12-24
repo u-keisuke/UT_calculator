@@ -1,25 +1,41 @@
 # UT_calculator
 
-## description
-jsonファイル(input)に格納されたユーザの点数データを、main.pyによって、整形されたデータ(database)へと変換する。
-新規、あるいは更新が必要なユーザの点数データだけを入力すれば良い。
+This is a program to calculate the credit score for UT 2023 students.
 
 
-## How to use
-### Upadating the score database.
+# Requirement
+
+"hoge"を動かすのに必要なライブラリなどを列挙する
+
+* numpy
+* pandas
+
+# Installation
+
+Requirementで列挙したライブラリなどのインストール方法を説明する
+
+```bash
+pip install numpy pandas
+```
+
+# Usage
+
+## Upadating the score database.
+```bash
 python main.py input.json database.json
+```
 
-### Removing an user from the score database.
+## Removing an user from the score database.
+```bash
 python remove.py removed_id.json
+```
 
 
+# Author
 
-## データ記法
-### input
-refer to input.json file.
+* Keisuke Ueda
+* University of Tokyo
 
-### database
-refet to database.json file.
+# License
 
-### remove
-removed_id.json
+This UT_calculator program is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
