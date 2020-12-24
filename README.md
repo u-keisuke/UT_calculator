@@ -6,13 +6,11 @@ jsonファイル(input)に格納されたユーザの点数データを、main.p
 
 
 ## How to use
-### ユーザの点数データの、データベースへの追加、更新方法
+### Upadating the score database.
 python main.py input.json database.json
 
-### データベースから特定のユーザのデータを消去する
+### Removing an user from the score database.
 python remove.py removed_id.json
-#### また、ユーザデータを消去すると、順位に変動があるが、それは内部プログラムによって更新される。
-
 
 
 
