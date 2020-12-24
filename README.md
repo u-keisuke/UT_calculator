@@ -4,9 +4,6 @@ This is a program to calculate the credit score for UT 2023 students.
 
 
 # Requirement
-
-"hoge"を動かすのに必要なライブラリなどを列挙する
-
 * numpy
 * pandas
 
@@ -27,12 +24,9 @@ python main.py input.json database.json
 python remove.py removed_id.json
 ```
 
-
 # Author
-
 * Keisuke Ueda
 * University of Tokyo
 
 # License
-
 This UT_calculator program is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
