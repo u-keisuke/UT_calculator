@@ -7,11 +7,6 @@ This is a program to calculate the credit score for UT 2023 students.
 * numpy
 * pandas
 
-# Installation
-```bash
-pip install numpy pandas
-```
-
 ## Usage
 
 ### Upadating the score database.
